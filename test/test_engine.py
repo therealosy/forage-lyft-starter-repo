@@ -1,5 +1,4 @@
 import unittest
-from datetime import datetime
 
 from engine.models.capulet_engine import CapuletEngine
 from engine.models.sternman_engine import SternmanEngine
