@@ -31,7 +31,7 @@ class CarFactory:
     def create_palindrome(current_date, last_service_date, warning_light_is_on):
         return Car(
             SternmanEngine(warning_light_is_on),
-            SpindlerBattery(last_service_date, current_date),
+            NubbinBattery(last_service_date, current_date),
         )
 
     @staticmethod
